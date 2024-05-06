@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  width:100%; height:100%; 
+  overflow-x:hidden;
+  position: relative;
+}
+
+.SiteName {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.MainTB {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.MainTB td{
+  padding: 10px;
+  text-align: center;
+  border-spacing: 10px;
+}
+
+.MainTB th:first-child{
+  width: 45%;
+  text-align: left;
+}
+
+.MainTB th{
+  padding: 10px;
+  width: 20%;
+}
+
+.Operation th{
+  padding: 10px ;
+}
+.Operation td{
+  padding: 0px !important;;
+}
+
+
+
+
+
+.Employe {
+  font-size: 10px;
+  color: gray;
+  vertical-align: top;
+  margin: 0;
+}
+
+.Date {
+  font-size: 10px;
+  color: gray;
+  vertical-align: top;
+  margin: 0;
+}
+
+.String td ul li{
+  list-style: none;
+  margin-left: 15px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.addOp:hover {
+  cursor: pointer;
+  color: brown;
+}
+
+
+.CostumerName {
+  font-size: 10px;
+  color: gray;
+}
+
+.String td:first-child {
+  text-align: left;
+  
+}
+
+.String td {
+  vertical-align: top;
+}
+
+.String td {
+  vertical-align: top;
+}
+
+.String td {
+    vertical-align: top;
+}
+
+
+
+.Status {
+  border: none;
+  font-size: 15px;
+}
+
+
+.spoiler-wrap > .spoiler__btn
+{
+  cursor: pointer;
+}
+
+.spoiler-wrap > .spoiler__btn::after
+{
+  
+  margin-left: 10px;
+}
+
+.spoiler-wrap.spoiler--open > .spoiler__btn::after
+{
+  
+  margin-left: 10px;
+}
+
+.spoiler-wrap.spoiler--open > .spoiler-content
+{
+  display: block;
+}
+
+.spoiler-content
+{
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+
+
+@keyframes fadeIn
+{
+  from
+  {
+    opacity: 0;
+  }
+
+  to
+  {
+    opacity: 1;
+  }
+}
+
+.String {
+  padding: 10px;
+}
+
+.String:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: 0.7s;
+}
+
+.open-form-btn {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.spoiler-content ul{
+  padding: 0;
+}
+
+
+
+
+
+
+.OpDelete {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 2px;
+  background-color: #b51c1caf;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 10px;
+}
+
+.OpEdit {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 2px;
+  background-color: #2e6f22af;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 10px;
+}
+
+.OpString td:first-child{
+  width: 70%;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+
+
+.OpString td:nth-child(2){
+  width: 10%;
+  vertical-align: top;
+}
+
+.OpString td:nth-child(3){
+  width: 10%;
+  vertical-align: top;
+}
+
+.OpString td:nth-child(4){
+  width: 10%;
+  height: 24px;  
+  vertical-align: top;
+}
+
+.OpString td:nth-child(5){
+  width: 10%;
+  height: 24px;  
+  vertical-align: top;
+}
+
+
+.CReady {
+  color: green;
+  font-weight: bold;
+}
+
+
+.OpDelete1 {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 2px;
+  background-color: #b51c1caf;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 10px;
+}
+
+.OpEdit1 {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 2px;
+  background-color: #2e6f22af;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 10px;
+}
+
+.Search {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}

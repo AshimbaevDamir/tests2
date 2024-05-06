@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Журнал учета гидроцилиндров</title>
+</head>
+<body>
+    
+    <div class="SiteName">
+      <h2>Журнал приема ремонта и учета</h2>
+    </div>
+    
+    <div class="Search">
+    <input type="text" id="myInputNumberOrName" onkeyup="myFunction1()" placeholder="Номер/Название">
+    <!--input type="text" id="myInputDateGet" onkeyup="myFunction2()" placeholder="Дата приема">
+    <input type="text" id="myInputDateOut" onkeyup="myFunction3()" placeholder="Дата отгрузки"-->
+    </div>
+    <div class="Main">
+      <table class="MainTB" id="MainTB">
+        <tr>
+          <th id="Td1">Номер гидроцилиндра</th>
+          <th id="Td2">Статус</th>
+          <th id="Td3">Принят</th>
+          <th id="Td4">Дата выдачи</th>
+          <th id="Td5">Изменение состояния</th>
+        </tr>
+        
+      </table>
+
+      <div id="open-form-btn">
+        + Добавить гидроцилиндр
+      </div>
+
+    </div>
+
+    
+
+    <div id="form-popup" class="form-popup">
+      <div class="form-content">
+        <form action="form.php">
+        <div id="formContainer"> 
+          <label for="numberInput"> 
+              Номер гидроцилиндра: 
+          </label> 
+          <input type="text" 
+                 id="numberInput" 
+                 name="numberInput"
+                 placeholder="вх. номер"> 
+          <label for="CostumerInput"> 
+              Заказчик: 
+          </label> 
+          <input type="text" 
+                 id="CostumerInput" 
+                 name="CostumerInput"
+                 placeholder="Наименование компании"> 
+          <label for="Date1Input"> 
+              Дата приема: 
+          </label> 
+          <input type="date" 
+                 name="Date1Input"
+                 id="Date1Input" 
+                 > 
+          <label for="Date2Input"> 
+              Дата сдачи: 
+          </label> 
+          <input type="date" 
+                 name="Date2Input"
+                 id="Date2Input" 
+                 >
+          <br>
+          <button onclick="addData()"name="submit"> 
+                Добавить 
+          </button> 
+      </div>  
+    </form>           
+      </div>
+    </div>
+
+    <div id="Operationform-popup" class="Operationform-popup">
+      <div class="Operationform-content">
+        <div id="OperationformContainer"> 
+          <label for="OpNameInput"> 
+              Наименование операции: 
+          </label> 
+          <input type="text" 
+                 id="OpNameInput" 
+                 name="OpNameInput"
+                 placeholder="Операция">
+          <br>
+          <button onclick="addToList(this.id)" > 
+                Добавить 
+          </button> 
+      </div>             
+      </div>
+    </div>
+
+
+
+
+    <script src="js/app.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
